@@ -1,6 +1,6 @@
 # ECPCS
 
-This repository provides the Matlab source code for the Ensemble Clustering by Propagating Cluster-wise Similarities (ECPCS) approach. 
+This repository provides the Matlab source code for the `Ensemble Clustering by Propagating Cluster-wise Similarities (ECPCS)` approach. 
 If you find it helpful for your research, please cite the paper below. 
 
 ```
