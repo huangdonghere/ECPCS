@@ -10,4 +10,4 @@ IEEE Transactions on Systems, Man, and Cybernetics: Systems, in press, 2019.
 DOI: https://doi.org/10.1109/TSMC.2018.2876202
 ```
 
-Please feel free to contact me if you have any questions regarding this work. (Email: huangdonghere at gmail dot com)
+Don't hesitate to contact me if you have any questions regarding this work. (Email: huangdonghere at gmail dot com)
