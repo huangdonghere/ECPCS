@@ -1,6 +1,6 @@
 # ECPCS
 
-This repository provides the Matlab source code for the `Ensemble Clustering by Propagating Cluster-wise Similarities (ECPCS)` approach, which is further developed into two sub-algorithms, i.e., ECPCS with hierarchical consensus function (ECPCS-HC) and ECPCS with with meta-cluster based consensus function (ECPCS-MC). 
+This repository provides the Matlab source code for the `Ensemble Clustering by Propagating Cluster-wise Similarities (ECPCS)` approach, which is further developed into two sub-algorithms, i.e., `ECPCS with hierarchical consensus function (ECPCS-HC)` and `ECPCS with with meta-cluster based consensus function (ECPCS-MC)`. 
 
 If you find this repository helpful for your research, please cite the paper below. 
 
