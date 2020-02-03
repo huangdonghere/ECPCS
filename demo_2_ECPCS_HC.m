@@ -22,7 +22,6 @@ clc;
 %% Set up
 addpath('Ncut');
 M = 20;   % The number of base clusterings
-t = 20;   % The number of steps of the random walks
 cntTimes = 10;  % The number of times that the ECPCS-HC algorithm will be run.
 
 %% Load the data.
@@ -55,14 +54,21 @@ for runIdx = 1:cntTimes
     upperK = min(100,floor(sqrt(N)));
     disp(['Generating ',num2str(M),' base clusterings...']);
     tic;
-%     baseCls = EnsembleGeneration(fea, M, lowerK, upperK); 
-    baseCls = EnsembleGeneration_parallel(fea, M, lowerK, upperK);  % A multi-thread version
+    % The non-paralleled version
+%     baseCls = EnsembleGeneration(fea, M, lowerK, upperK);
+    % The paralleled version 
+    baseCls = EnsembleGeneration_parallel(fea, M, lowerK, upperK); 
     toc;
 
     %% Performing ECPCS-HC to obtain the consensus clustering.
     disp('Starting ECPCS-HC...');
     tic;
-    Label = ECPCS_HC(baseCls, t, K);
+    % You can use the default parameter t=20.
+    Label = ECPCS_HC(baseCls, K);
+    % Or you can set up parameter t by yourself.
+%     t = 20;   % The number of steps of the random walks
+%     Label = ECPCS_HC(baseCls, K,t);
+    disp('ECPCS-MC done.');
     toc;
     disp('ECPCS-HC done.');
     
