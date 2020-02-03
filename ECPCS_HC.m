@@ -12,8 +12,12 @@
 % www.researchgate.net/publication/328581758                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function Label = ECPCS_HC(baseCls, t, K)
+function Label = ECPCS_HC(baseCls, K, t)
 % Dong Huang. Sep. 28, 2018.
+
+if nargin < 3
+    t = 20;
+end
 
 [bcs, baseClsSegs] = getAllSegs(baseCls);
 clsSim = full(simxjac(baseClsSegs)); % Build the cluster similarity matrix by Jaccard coefficient.
