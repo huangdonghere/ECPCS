@@ -1,4 +1,4 @@
-# Enhanced Ensemble Clustering via Fast Propagation of Cluster-wise Similarities
+# ECPCS
 
 This repository provides the Matlab source code for the `Ensemble Clustering by Propagating Cluster-wise Similarities (ECPCS)` approach, which is further developed into two ensemble clustering algorithms, i.e., `ECPCS with hierarchical consensus function (ECPCS-HC)` and `ECPCS with with meta-cluster based consensus function (ECPCS-MC)`. 
 
