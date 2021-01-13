@@ -7,7 +7,7 @@ If you find this repository helpful for your research, please cite the paper bel
 ```
 Dong Huang, Chang-Dong Wang, Hongxing Peng, Jianhuang Lai, and Chee-Keong Kwoh. 
 Enhanced Ensemble Clustering via Fast Propagation of Cluster-wise Similarities. 
-To appear in IEEE Transactions on Systems, Man, and Cybernetics: Systems.
+IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2021, 51(1), pp.508-520.
 DOI: https://doi.org/10.1109/TSMC.2018.2876202
 ```
 
